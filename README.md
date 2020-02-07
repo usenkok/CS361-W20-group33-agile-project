@@ -4,10 +4,14 @@ site to promote and sponsor alpacas
 =======
 
 <h1>Instructions to work on this repository </h1>
-_pre-requisites_
-local NodeJs install
-Gatsby CLI global install
 
+*Pre-requisites:*
+
+* local NodeJs install
+* Gatsby CLI global install
+
+
+## Steps
 1. **Clone to your local machine**
 ```
 git clone https://github.com/usenkok/CS361-W20-group33-agile-project/ </code>
