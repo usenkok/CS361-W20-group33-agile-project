@@ -11,9 +11,12 @@ function AlpacaBar() {
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">Alpaca Sponsoring</Navbar.Brand>
         <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end"> 
         <Navbar.Text>
-        Signed in as: <a href="#login">Guest</a>
+        <a href="#alpacaProfiles">View Our Alpacas</a>
+        </Navbar.Text>
+        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Text>
+        Signed in as: <a href="#aboutText">Guest</a>
         </Navbar.Text>
         </Navbar.Collapse>
         </Navbar>
@@ -29,27 +32,15 @@ function Title(props) {
     )
 }
 
-function Login() {
+function AboutText
+() {
     return (
-        <div className="login">
-        <Form>
-  <Form.Group controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control size="sm" type="email" placeholder="Enter email" />
-    <Form.Text className="text-muted">
-      We'll never share your email with anyone else.
-    </Form.Text>
-  </Form.Group>
-
-  <Form.Group controlId="formBasicPassword">
-    <Form.Label>Password</Form.Label>
-    <Form.Control size="sm" type="password" placeholder="Password" />
-  </Form.Group>
-  <Button variant="primary" type="submit">
-    Sign up!
-  </Button>
-</Form>
-</div>
+        <div className="aboutText">
+          <p>Daniel’s Alpaca Farm raises alpacas and sells artisan alpaca products in their farm store (sweaters, yarn, lotions). 
+            The farm has noticed that sponsoring or “adopting” animals is a popular way for farms to increase revenue, 
+            and for urban dwellers to connect with animals that they don’t have the time or space to care for themselves.
+            </p>
+        </div>
     )
 }
 
@@ -60,7 +51,7 @@ export default () => {
         <AlpacaBar />
         <Title>Sponsor an Alpaca</Title>
         <img src={alpaca} style={{height: "10%" }} />
-        <Login />
+        <AboutText />
     </div>
     )
 }

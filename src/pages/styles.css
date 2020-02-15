@@ -9,7 +9,7 @@ img {
 
 
 
-.login {
+.aboutText {
    padding: 30px;  
    margin: 100px;
    max-width: 500px;
@@ -21,7 +21,13 @@ img {
 .alpacaBar {
 
    flex-direction: row;
-   justify-content: center;
+   /* align-content: space-between; */
+   justify-content: space-between;
+}
+
+.alpacaProfileLink {
+  display:flex; 
+  justify-content: center;
 }
 
 
