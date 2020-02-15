@@ -1,7 +1,36 @@
-<<<<<<< HEAD
-# CS361-W20-group33-agile
+
+# CS361-W20-group33-agile project
 site to promote and sponsor alpacas
 =======
+
+<h1>Instructions to work on this repository </h1>
+
+*Pre-requisites:*
+
+* local NodeJs install
+* Gatsby CLI global install
+
+
+## Steps
+1. **Clone to your local machine**
+```
+git clone https://github.com/usenkok/CS361-W20-group33-agile-project/ </code>
+```
+
+2. **Install packages**
+```
+cd CS361*
+npm install
+```
+
+3. **Run local server**
+```
+gatsby develop
+```
+
+4. **Open localhost in browser**
+Open localhost:8000 in a browser and view the beautiful Alpaca website
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
