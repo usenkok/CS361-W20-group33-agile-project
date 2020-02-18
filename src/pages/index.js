@@ -9,10 +9,10 @@ function AlpacaBar() {
     return (
         <div className="alpacaBar">
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Alpacify</Navbar.Brand>
+            <Navbar.Brand href="/">Alpacify</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Text>
-        <a href="#alpacaProfiles">View Our Alpacas</a>
+        <a href="/profile/">Alpaca Profile</a>
         </Navbar.Text>  
         <Navbar.Collapse className="justify-content-end">
         </Navbar.Collapse>
@@ -47,7 +47,7 @@ export default () => {
     <div>
         <AlpacaBar />
         <Title>Sponsor an Alpaca</Title>
-        <img src={alpaca} style={{height: "10%" }} />
+        <img src={alpaca} style={{width: "20%", height: "10%"  }} />
         <AboutText />
     </div>
     )
