@@ -13,7 +13,10 @@ function AlpacaBar() {
         <Navbar.Toggle />
         <Navbar.Text>
         <a href="#alpacaProfiles">View Our Alpacas</a>
-        </Navbar.Text>
+        </Navbar.Text> 
+        <Navbar.Text>
+        Test 123 
+        </Navbar.Text> 
         <Navbar.Collapse className="justify-content-end">
         </Navbar.Collapse>
         </Navbar>
