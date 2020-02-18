@@ -7,19 +7,14 @@ img {
    justify-content: center;
 }
 
-
-
 .aboutText {
    padding: 30px;  
    margin: 100px;
    max-width: 500px;
    margin: auto;
-
 }
 
-
 .alpacaBar {
-
    flex-direction: row;
    /* align-content: space-between; */
    justify-content: space-between;
@@ -29,7 +24,6 @@ img {
   display:flex; 
   justify-content: center;
 }
-
 
 .alpacaTitle {
    display: flex;
