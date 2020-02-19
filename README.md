@@ -14,7 +14,7 @@ site to promote and sponsor alpacas
 ## Steps
 1. **Clone to your local machine**
 ```
-git clone https://github.com/usenkok/CS361-W20-group33-agile-project/ </code>
+git clone https://github.com/usenkok/CS361-W20-group33-agile-project/
 ```
 
 2. **Install packages**
