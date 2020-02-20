@@ -1,20 +1,23 @@
 import React from "react"
+import {Link} from 'gatsby'
 import 'bootstrap/dist/css/bootstrap.css'
 import {Navbar, Form, Button} from 'react-bootstrap'
 import alpaca from './alpaca-cute.jpeg'
 import "./styles.css"
 
-
 function AlpacaBar() {
     return (
         <div className="alpacaBar">
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="/">Alpacify</Navbar.Brand>
+            <Navbar.Brand href="#home">Alpaca Sponsoring</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Text>
-        <a href="/profile/">Alpaca Profile</a>
-        </Navbar.Text>  
+        <Link to="/profile/">View Our Alpacas</Link>
+        </Navbar.Text>
         <Navbar.Collapse className="justify-content-end">
+        <Navbar.Text>
+        Signed in as: <a href="#aboutText">Guest</a>
+        </Navbar.Text>
         </Navbar.Collapse>
         </Navbar>
         </div>
@@ -47,7 +50,7 @@ export default () => {
     <div>
         <AlpacaBar />
         <Title>Sponsor an Alpaca</Title>
-        <img src={alpaca} style={{width: "20%", height: "10%"  }} />
+        <img src={alpaca} style={{width: "20%", height: "10%" }} />
         <AboutText />
     </div>
     )

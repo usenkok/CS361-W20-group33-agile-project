@@ -5,6 +5,9 @@ import alpaca from './alpaca-cute.jpeg'
 import bertiewooster from './bertie-wooster.png'
 import {Navbar, Form, Button} from 'react-bootstrap'
 
+// local components
+import Team33PayPalButton from "./components/paypalbutton"
+
 function AlpacaBar() {
   return (
       <div className="alpacaBar">
@@ -55,7 +58,7 @@ export default () => {
           </div>  
           <div class="col-6">
             <ProfileText />
-            <Button variant="primary" size="lg">Sponsor now</Button>
+            <Team33PayPalButton />
           </div>
         </div> 
       </div> 
