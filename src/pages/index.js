@@ -9,15 +9,12 @@ function AlpacaBar() {
     return (
         <div className="alpacaBar">
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Alpaca Sponsoring</Navbar.Brand>
+            <Navbar.Brand href="#home">Alpacify</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Text>
         <Link to="/profile/">View Our Alpacas</Link>
         </Navbar.Text>
         <Navbar.Collapse className="justify-content-end">
-        <Navbar.Text>
-        Signed in as: <a href="#aboutText">Guest</a>
-        </Navbar.Text>
         </Navbar.Collapse>
         </Navbar>
         </div>
