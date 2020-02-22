@@ -1,17 +1,20 @@
 
 # CS361-W20-group33-agile project
-site to promote and sponsor alpacas
-=======
 
-<h1>Instructions to work on this repository </h1>
+Site to promote and sponsor alpacas!
+
+
+## Instructions to work on this repository
 
 *Pre-requisites:*
 
-* local NodeJs install
+* local [NodeJs](https://nodejs.org/en/) install
 * Gatsby CLI global install
+```
+npm install -g gatsby-cli
+```
 
-
-## Steps
+### **Steps to clone for the first time and run a local gatsby development environment**
 1. **Clone to your local machine**
 ```
 git clone https://github.com/usenkok/CS361-W20-group33-agile-project/
@@ -30,6 +33,41 @@ gatsby develop
 
 4. **Open localhost in browser**
 Open localhost:8000 in a browser and view the beautiful Alpaca website
+
+
+### **Steps to pull the current iteration's branch**
+
+If you already have the repository cloned locally and need to grab the latest changes and/or branch follow the steps below.
+
+#### **Checkout the iteration branch**
+
+When you clone a repository you are on the master branch by default. If you want to work locally on a specific branch and keep it in sync with the remote repository's branch, checkout the branch with the '-t' option.
+
+> ***NOTE*** if you are checking the branch out for the first time, include "origin/" before the branch name. If you use -b, it will create a local branch of the same name that is blind to the branch on GitHub! Then things can get really messy and confusing.
+
+```
+git checkout -t origin/iteration002
+```
+
+You should see the message:
+```
+Switched to a new branch 'iteration002'
+Branch 'iteration002' set up to track remote branch 'iteration002' from 'origin'.
+```
+
+#### **Pull the latest changes from a remote branch**
+To get changes someone has uploaded to GiHub all you should need to do is pull them!
+
+```
+git pull
+```
+
+### Additional reading
+* [Git - working with remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+* [Git - Branches in a nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching)
+
+
+# Original Gatsby README content below
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
