@@ -1,9 +1,9 @@
 import React from "react"
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 import 'bootstrap/dist/css/bootstrap.css'
-import {Navbar, Form, Button} from 'react-bootstrap'
-import alpaca from './alpaca-cute.jpeg'
-import "./styles.css"
+import { Navbar } from 'react-bootstrap'
+import alpaca from '../components/alpaca-cute.jpeg'
+import "../components/styles.css"
 
 function AlpacaBar() {
     return (
@@ -12,7 +12,7 @@ function AlpacaBar() {
             <Navbar.Brand href="#home">Alpacify</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Text>
-        <Link to="/profile/">View Our Alpacas</Link>
+        <Link to="/profile_view_withoutpay/">View Our Alpacas</Link>
         </Navbar.Text>
         <Navbar.Collapse className="justify-content-end">
         </Navbar.Collapse>
@@ -48,7 +48,7 @@ export default () => {
         <AlpacaBar />
         <Title>Sponsor an Alpaca</Title>
         <img src={alpaca} style={{width: "20%", height: "10%" }} />
-        <AboutText />
+        <AboutText />        
     </div>
     )
 }
