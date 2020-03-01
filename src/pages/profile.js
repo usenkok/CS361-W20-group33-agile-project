@@ -4,6 +4,7 @@ import "./styles.css"
 import alpaca from './alpaca-cute.jpeg'
 import bertiewooster from './bertie-wooster.png'
 import {Navbar, Form, Button} from 'react-bootstrap'
+import { Link } from 'gatsby'
 
 // local components
 import Team33PayPalButton from "./components/paypalbutton"
@@ -16,7 +17,10 @@ function AlpacaBar() {
       <Navbar.Toggle />
       <Navbar.Text>
       <a href="#alpacaProfiles">Alpaca Profile</a>
-      </Navbar.Text>  
+      </Navbar.Text>
+      <Navbar.Text>
+      <Link to="/addpage/" >Add New Alpaca</Link>
+      </Navbar.Text>
       <Navbar.Collapse className="justify-content-end">
       </Navbar.Collapse>
       </Navbar>
