@@ -36,6 +36,7 @@ function ProfileText
 () {
     return (
         <div className="ProfileText">
+          <h2>About</h2>
           <p>Some text about this alpaca. Lorem ipsum dolor amet whatever hella listicle, marfa pinterest literally subway tile williamsburg hot chicken. Id selvage pinterest neutra. Gluten-free occupy live-edge, ex trust fund keffiyeh enamel pin iPhone adaptogen taiyaki. +1 mustache four dollar toast brooklyn, master cleanse dolore vexillologist prism meh venmo chillwave jean shorts bespoke live-edge. Literally forage poke quinoa, echo park lyft in williamsburg cillum cronut cornhole shoreditch vexillologist slow-carb.
           </p>
         </div>
@@ -48,17 +49,18 @@ export default () => {
       <AlpacaBar />
       <div class="container">
         <div class="row">
-          <div class="col-6">
-            <Title>Profile: Bertie Wooster</Title>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-6">     
             <img class="img-fluid" alt="Responsive image" src={bertiewooster}  /> 
           </div>  
           <div class="col-6">
             <ProfileText />
+            <h3>Sponsor</h3>
             <Team33PayPalButton />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <Title>Profile: Bertie Wooster</Title>
           </div>
         </div> 
       </div> 

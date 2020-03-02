@@ -29,3 +29,19 @@ img {
    flex-direction: row;
    justify-content: center;  
 }
+
+.ProfileText {
+  padding-top: 50px;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.img-fluid {
+  border-radius: 50%;
+}
+
+.index_title {
+  padding-top: 50px;
+}

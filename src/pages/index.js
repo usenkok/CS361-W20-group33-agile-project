@@ -24,7 +24,7 @@ function AlpacaBar() {
 function Title(props) {
     return (
         <div className="alpacaTitle">
-        <h1>{props.children}</h1>
+        <h1 class="index_title">{props.children}</h1>
         </div>
     )
 }
