@@ -47,19 +47,19 @@ export default () => {
   return (
   <div>
       <AlpacaBar />
-      <div class="container">
-        <div class="row">
-          <div class="col-6">     
-            <img class="img-fluid" alt="Responsive image" src={bertiewooster}  /> 
+      <div className="container">
+        <div className="row">
+          <div className="col-6">     
+            <img className="img-fluid" alt="Responsive image" src={bertiewooster}  /> 
           </div>  
-          <div class="col-6">
+          <div className="col-6">
             <ProfileText />
             <h3>Sponsor</h3>
             <Team33PayPalButton />
           </div>
         </div>
-        <div class="row">
-          <div class="col-6">
+        <div className="row">
+          <div className="col-6">
             <Title>Profile: Bertie Wooster</Title>
           </div>
         </div> 

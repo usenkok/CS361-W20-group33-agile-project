@@ -24,7 +24,7 @@ function AlpacaBar() {
 function Title(props) {
     return (
         <div className="alpacaTitle">
-        <h1 class="index_title">{props.children}</h1>
+        <h1 className="index_title">{props.children}</h1>
         </div>
     )
 }
@@ -47,7 +47,7 @@ export default () => {
     <div>
         <AlpacaBar />
         <Title>Sponsor an Alpaca</Title>
-        <img src={alpaca} style={{width: "20%", height: "10%" }} />
+        <img src={alpaca} style={{width: "20%", height: "10%", padding: "0px" }} />
         <AboutText />
     </div>
     )
