@@ -15,9 +15,9 @@ img {
 
 .alpacaBar {
    flex-direction: row;
-   /* align-content: space-between; */
    justify-content: space-between;
 }
+
 
 .alpacaProfileLink {
   display:flex; 
@@ -28,6 +28,12 @@ img {
    display: flex;
    flex-direction: row;
    justify-content: center;  
+}
+
+.profileTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;  
 }
 
 .ProfileText {

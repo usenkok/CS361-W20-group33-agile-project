@@ -1,9 +1,8 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.css'
 import "./styles.css"
-import alpaca from './alpaca-cute.jpeg'
 import bertiewooster from './bertie-wooster.png'
-import {Navbar, Form, Button} from 'react-bootstrap'
+import {Navbar} from 'react-bootstrap'
 
 // local components
 import Team33PayPalButton from "./components/paypalbutton"
@@ -24,9 +23,9 @@ function AlpacaBar() {
   )
 }
 
-function Title(props) {
+function ProfileTitle(props) {
   return (
-      <div className="alpacaTitle">
+      <div className="profileTitle">
       <h1>{props.children}</h1>
       </div>
   )
@@ -43,27 +42,37 @@ function ProfileText
     )
 }
 
+
+
 export default () => {
   return (
   <div>
-      <AlpacaBar />
+    <AlpacaBar />
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-6">     
+          <img className="img-fluid" alt="Closeup of brown alpaca face" src={bertiewooster}  /> 
+        </div>  
+        
+        <div className="col-lg-6">
+          <ProfileTitle>Bertie Wooster</ProfileTitle>
+          <ProfileText />
+          <h3>Sponsor</h3>
+          <Team33PayPalButton />
+        </div>
+      </div>
+    </div> 
+
+    <div>
       <div className="container">
         <div className="row">
-          <div className="col-6">     
-            <img className="img-fluid" alt="Responsive image" src={bertiewooster}  /> 
-          </div>  
-          <div className="col-6">
-            <ProfileText />
-            <h3>Sponsor</h3>
-            <Team33PayPalButton />
-          </div>
+          <footer class="footer blue">
+            <p>Copyright Daniel's Alpaca Farm 2020 | <a href="https://www.paypal.com/us/webapps/mpp/ua/acceptableuse-full">PayPal Acceptable Use Policy</a>
+            </p>
+          </footer>
         </div>
-        <div className="row">
-          <div className="col-6">
-            <Title>Profile: Bertie Wooster</Title>
-          </div>
-        </div> 
-      </div> 
+      </div>
+    </div>
   </div>
   )
 }
