@@ -36,7 +36,7 @@ function ProfileText
     return (
         <div className="ProfileText">
           <h2>About</h2>
-          <p>Some text about this alpaca. Lorem ipsum dolor amet whatever hella listicle, marfa pinterest literally subway tile williamsburg hot chicken. Id selvage pinterest neutra. Gluten-free occupy live-edge, ex trust fund keffiyeh enamel pin iPhone adaptogen taiyaki. +1 mustache four dollar toast brooklyn, master cleanse dolore vexillologist prism meh venmo chillwave jean shorts bespoke live-edge. Literally forage poke quinoa, echo park lyft in williamsburg cillum cronut cornhole shoreditch vexillologist slow-carb.
+          <p>He has curly blond hair, called Le Roi-Soleil by friends and family, and is a mysterious and cute child. Of course trapped in farm conditions, he failed to own a rose he loved. He doesn't repel the grass tips and winter hay, but carrots are obviously more popular with him. As a docile alpaca, he rarely spit at people, but if you violently pull his blond hair, the consequences are quite bad.
           </p>
         </div>
     )
